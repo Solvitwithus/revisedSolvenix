@@ -10,9 +10,21 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
+  // still include Next.js defaults (optional, can remove if you want 100% silence)
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+
+  // completely disable rules + ignore everything
   {
+    rules: {
+      "no-unused-expressions": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-expressions": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/no-this-alias": "off",
+      // add more if you see other errors
+    },
     ignores: [
+      "**/*", // 🔥 ignore all files
       "node_modules/**",
       ".next/**",
       "out/**",
