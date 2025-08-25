@@ -8,7 +8,7 @@ import { FaLinkedin, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
 const ContactPage = () => {
   return (
     <div>
-      <div className="bg-gradient-to-r from-green-900 to-black text-white py-14 px-4 text-center">
+      <div className="bg-gradient-to-r from-green-900 to-black mt-10 text-white py-14 px-4 text-center">
         <h2 className="text-3xl font-bold mb-3">Connect With Solvex Solutions</h2>
         <p className="text-sm text-gray-200 mb-6 max-w-xl mx-auto">
           Partner with us to streamline your business operations across East Africa. Schedule a consultation to explore how our automation solutions can drive your success.
