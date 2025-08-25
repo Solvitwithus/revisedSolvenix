@@ -29,7 +29,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="mt-1 text-gray-300 py-8 px-6 md:px-20 text-sm bg-gradient-to-r from-black to-green-900">
+      <div className="mt-1 absolute bottom-0 right-0 left-0  text-gray-300 py-8 px-6 md:px-20 text-sm bg-gradient-to-r from-black to-green-900">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 border-b border-gray-700 pb-6">
           {/* Brand Info */}
           <div>
