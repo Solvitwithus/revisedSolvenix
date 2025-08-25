@@ -15,7 +15,7 @@ const ContactPage = () => {
         </p>
 
         <div className="flex justify-center items-center gap-3 flex-wrap">
-          <Link href="/demo">
+          <Link href="/demonstration">
             <button className="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded flex items-center gap-2 text-sm">
               Schedule a Free Consultation <Calendar size={16} />
             </button>
