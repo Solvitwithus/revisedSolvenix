@@ -32,7 +32,7 @@ export default function Page() {
       <section className="text-center py-20 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center" id="services">
         <h1 className="text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600 animate__animated animate__pulse">Our Expertise</h1>
         <p className="text-lg mb-12 text-gray-200">Discover Our Comprehensive Suite of Business Solutions Designed to Accelerate Your Success</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[95rem] mx-auto px-6">
           <motion.div 
             className="service-card bg-white/10 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
             initial={{ opacity: 0, y: 50 }}
@@ -164,7 +164,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="py-20 px-6 bg-gradient-to-r from-[#0f172a] via-[#1a2c3b] to-[#0f172a] text-white" id="why-choose-us">
+      <section className="py-20 px-6 bg-gradient-to-r from-green-900 to-black text-white" id="why-choose-us">
         <h2 className="text-4xl font-extrabold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-600 animate__animated animate__fadeIn">Why Choose Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           <NeonGradientCard className="hover:scale-105 transition-transform duration-300">

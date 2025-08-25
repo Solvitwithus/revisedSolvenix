@@ -22,7 +22,7 @@ export default function AboutPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#1e293b] overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-track-[#e0f7fa]/20 scrollbar-thumb-[#a3bffa]/40 text-gray-100">
+    <div className="min-h-screen bg-gradient-to-r from-green-900 to-black overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-track-[#e0f7fa]/20 scrollbar-thumb-[#a3bffa]/40 text-gray-100">
       {/* Main Content */}
       <div className="relative z-20 py-24 px-6">
         {/* Hero Section */}

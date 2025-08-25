@@ -62,9 +62,9 @@ export default function Page() {
           </motion.button>
         </section>
 
-        <section className="py-20 px-6" id="services">
+        <section className="pt-10 px-6" id="services">
           <h2 className="text-4xl font-bold mb-12 text-center text-teal-200">Our Expertise</h2>
-           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mb-6 mx-auto px-6">
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[90rem] mb-6 mx-auto px-6">
        
             <motion.div 
             className="service-card bg-white/10 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
@@ -101,7 +101,7 @@ export default function Page() {
 
 
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-[90rem]  mx-auto px-6">
           <motion.div 
             className="service-card bg-white/10 backdrop-blur-md rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
             initial={{ opacity: 0, y: 50 }}
